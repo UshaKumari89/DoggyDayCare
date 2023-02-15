@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+/* general style for page */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* style for page body */
+body {
+    background-color: #FED253;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* style for heading*/
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.26);
+    display: flex;
+    flex-direction: column;
+  
+}
+/* style for header */
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+/* style for main */
+main {
+     margin: 0 auto; 
+    max-width: 1200px;
+}
+/* style for button */
+.go-to-dogs-page-button {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #4C8FAB;
+    color: white;
+    font-weight: bold;
+}
+/* style for button when its visited */
+.go-to-dogs-page-button:visited {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,39 @@
+.dogs-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dogs-container article {
+    background-color: white;
+    flex: 1;
+    margin: 1rem;
+    min-width: 15rem;
+    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.38);
+}
+.dogs-container article figure {
+    width: 100%;
+    height: 60vw;
+    max-height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.name-sex-age{
+    padding: 1rem;
+    display: flex;
+    text-align: start;
+   
+}
+.name-sex-age {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-sex-age div img {
+    width: 25px;
+    height: 25px;
+}
+
+.showCard{
+    width: 250px;
+    height: 250px;
+}
